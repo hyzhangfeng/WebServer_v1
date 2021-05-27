@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户注册</title>
+	</head>
+	<body>
+		<center>
+			<h1>新用户注册</h1>
+			<!-- action是将表单内容提交到哪里
+				  可以使用相对路径,那么相对的路径是
+				  当前页面的路径.
+				 请求当前页面的路径是:
+				 http://localhost:8080/myweb/reg.html
+				 那么相对路径就是
+				 http://localhost:8080/myweb/
+				 所以action="reg",那么该表单提交的地址:
+				 http://localhost:8080/myweb/reg
+			 -->
+			<form action="reg" method="post">
+				<table border="1">
+					<tr>
+						<td>用户名:</td>
+						<td><input type="text" size="30" name="username"></td>
+					</tr>
+					<tr>
+						<td>密码:</td>
+						<td><input type="password" size="30" name="password"></td>
+					</tr>
+					<tr>
+						<td>昵称:</td>
+						<td><input type="text" size="30" name="nickname"></td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center"><input type="submit" value="注册"></td>
+					</tr>
+				</table>
+			</form>
+			
+			
+		</center>
+	</body>
+</html>
+
+
+
+
+
+

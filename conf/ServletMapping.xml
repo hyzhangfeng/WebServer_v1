@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- conf/ServletMapping.xml -->
+<mappings>
+	<mapping 
+		uri="/myweb/reg" 
+		classname="com.tedu.servlets.RegServlet"
+	/>
+	<mapping 
+		uri="/myweb/login" 
+		classname="com.tedu.servlets.LoginServlet"
+	/>
+</mappings>
